@@ -24,7 +24,6 @@ export default function AddExpenseForm() {
           ></input>
         </div>
       </div>
-      <h3>Add Expense</h3>
       <div className="row">
         <div className="col-sm">
           <button type="submit" className="btn btn-primary mt3">
