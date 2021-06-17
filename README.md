@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# An Awesome Budget Tracker
+
+I wish I had came up with a fancy name to this but anyways. I'll be building a budget tracker using React to potentially see if I can use it for personal purposes and make it do cool stuff.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
