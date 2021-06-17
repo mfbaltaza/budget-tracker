@@ -60,6 +60,7 @@ export default function AddExpenseForm() {
       </div>
       <div className="row">
         <div className="col-sm">
+          <br></br>
           <button type="submit" className="btn btn-primary mt3">
             Save
           </button>
