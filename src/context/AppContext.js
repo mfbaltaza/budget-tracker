@@ -8,6 +8,14 @@ const AppReducer = (state, action) => {
         ...state,
         expenses: [...state.expenses, action.payload],
       };
+    // We're using the filter array method to remove the expense that has the ID which we received from the payload.
+    case "DELETE_EXPENSE":
+      return {
+        ...state,
+        expenses: state.expenses.filter(
+          (expense) => expense.id !== action.payload
+        )
+      }
     default:
       return state;
   }
