@@ -18,7 +18,7 @@ function ExpenseList() {
   }
   
   return (
-    <ul>
+    <ul className="list-group mt-3 mb-3">
       {expenses.map((expense) => (
         <ExpenseItem id={expense.id} name={capitalize(expense.name)} cost={expense.cost} />
       ))}
