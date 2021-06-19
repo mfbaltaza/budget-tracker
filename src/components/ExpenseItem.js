@@ -16,11 +16,11 @@ export default function ExpenseItem(props) {
     <li className="list-group-item d-flex justify-content-between align-items-center">
       {props.name}
       <div>
-        <span className="badge badge-primary badge-pill mr-3">
+        <span className="badge rounded-pill bg-primary me-3">
           ${props.cost}
         </span>
-        {/* This is a delete icon we bring */}
         <TiDelete size="1.5em" onClick={handleDeleteExpense}></TiDelete>
+                {/* This is a delete icon we bring */}
       </div>
     </li>
   );
