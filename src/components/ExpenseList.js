@@ -12,10 +12,15 @@ function ExpenseList() {
 
   const { expenses } = useContext(AppContext);
 
+  const capitalize = (s) => {
+    if (typeof s !== 'string') return ''
+    return s.charAt(0).toUpperCase() + s.slice(1)
+  }
+  
   return (
     <ul>
       {expenses.map((expense) => (
-        <ExpenseItem id={expense.id} name={expense.name} cost={expense.cost} />
+        <ExpenseItem id={expense.id} name={capitalize(expense.name)} cost={expense.cost} />
       ))}
     </ul>
   );
