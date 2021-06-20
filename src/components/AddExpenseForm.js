@@ -50,7 +50,7 @@ export default function AddExpenseForm() {
           <label htmlFor="cost">Cost</label>
           <input
             required="required"
-            type="text"
+            type="number"
             className="form-control"
             id="name"
             value={cost}
