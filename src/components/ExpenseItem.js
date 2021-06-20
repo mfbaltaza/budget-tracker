@@ -19,7 +19,7 @@ export default function ExpenseItem(props) {
         <span className="badge rounded-pill bg-primary me-3">
           ${props.cost}
         </span>
-        <TiDelete size="1.5em" onClick={handleDeleteExpense}></TiDelete>
+        <TiDelete size="1.5em" style={{cursor: "pointer"}} onClick={handleDeleteExpense}></TiDelete>
                 {/* This is a delete icon we bring */}
       </div>
     </li>
