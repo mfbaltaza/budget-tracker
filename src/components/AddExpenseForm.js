@@ -62,7 +62,7 @@ export default function AddExpenseForm() {
       <div className="row">
         <div className="col-sm mt-5">
           <div class="d-grid gap-2 col-6 mx-auto">
-            <button type="button" class="btn btn-outline-danger btn-lg">
+            <button type="submit" class="btn btn-outline-danger btn-lg">
               Save
             </button>
           </div>
