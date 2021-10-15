@@ -58,12 +58,14 @@ export default function AddExpenseForm() {
           ></input>
         </div>
       </div>
+
       <div className="row">
-        <div className="col-sm">
-          <br></br>
-          <button type="submit" className="btn btn-primary mt3">
-            Save
-          </button>
+        <div className="col-sm mt-5">
+          <div class="d-grid gap-2 col-6 mx-auto">
+            <button type="submit" class="btn btn-outline-danger btn-lg">
+              Save
+            </button>
+          </div>
         </div>
       </div>
     </form>

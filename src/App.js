@@ -6,13 +6,15 @@ import ExpenseTotal from "./components/ExpenseTotal";
 import ExpenseList from "./components/ExpenseList";
 import AddExpenseForm from "./components/AddExpenseForm";
 import { AppProvider } from "./context/AppContext";
+import NavBar from "./components/NavBar";
 
 // We are mainly using React over className
 
 export default function App() {
   return (
     <AppProvider>
-      <div className="container">
+      <NavBar />
+      <div className="container mt-5 p-2">
         <h1 className="mt-3">An Awesome Budget Planner</h1>
         {/* Below we add the main 3 elements in a row */}
         <div className="row mt-3">
@@ -39,6 +41,7 @@ export default function App() {
           </div>
         </div>
       </div>
+      
     </AppProvider>
   );
 }
