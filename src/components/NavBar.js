@@ -4,10 +4,10 @@ export default function App() {
   return (
     <nav
       class="navbar sticky-top navbar-expand-lg"
-      style={{ backgroundColor: "#d1e7dd" }}
+      style={{ backgroundColor: "#000", color:"#007e33" }}
     >
       <div class="container">
-        <a class="navbar-brand text-dark" href="#">
+        <a class="navbar-brand " href="#" style={{  color:"#1de9b6" }}>
           Awesome Budget Planner
         </a>
         <button
