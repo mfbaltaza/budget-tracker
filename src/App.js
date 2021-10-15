@@ -7,6 +7,8 @@ import ExpenseList from "./components/ExpenseList";
 import AddExpenseForm from "./components/AddExpenseForm";
 import { AppProvider } from "./context/AppContext";
 import NavBar from "./components/NavBar";
+import Footer from "./components/Footer";
+import "./App.css";
 
 // We are mainly using React over className
 
@@ -41,7 +43,7 @@ export default function App() {
           </div>
         </div>
       </div>
-      
+     <Footer />
     </AppProvider>
   );
 }
