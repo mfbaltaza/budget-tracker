@@ -1,11 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
 /*--------------------------------------------------------------
   # Footer
   --------------------------------------------------------------*/
 footer {
   text-align: center;
-  color: #2bbbad;
+  color: #cbc8f9;
   padding: 20px 0;
-  background: #000;
+  background: #090637;
 }
 
 footer .copyright {
